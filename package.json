@@ -9,7 +9,8 @@
   "author": "Gabriele Pio Midulla",
   "license": "ISC",
   "description": "A micro key-value database for Node.js",
-  "devDependencies": {
+  "type": "module",
+  "dependencies": {
     "@types/node": "^22.2.0",
     "crypto": "^1.0.1"
   }
