@@ -1,0 +1,16 @@
+{
+  "name": "minikv",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "keywords": [
+    "database",
+    "key-value"
+  ],
+  "author": "Gabriele Pio Midulla",
+  "license": "ISC",
+  "description": "A mini key-value database for Node.js",
+  "devDependencies": {
+    "@types/node": "^22.2.0",
+    "crypto": "^1.0.1"
+  }
+}
