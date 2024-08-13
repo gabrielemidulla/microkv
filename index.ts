@@ -1,12 +1,12 @@
 import { createCipheriv, createDecipheriv, randomBytes, scryptSync, createHash } from 'crypto';
 import { writeFileSync, readFileSync, existsSync } from 'fs';
 
-export default class MiniKV {
+export default class MicroKV {
     #key: Buffer;
     #filePath: string;
 
     /**
-     * Creates a new MiniKV instance.
+     * Creates a new MicroKV instance.
      * @param {string} password - The password used to encrypt and decrypt data.
      * @param {string} [filePath='kvstore.db'] - The path and name of the database file.
      */
