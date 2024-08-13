@@ -1,7 +1,7 @@
 import { createCipheriv, createDecipheriv, randomBytes, scryptSync, createHash } from 'crypto';
 import { writeFileSync, readFileSync, existsSync } from 'fs';
 
-export default class MicroKV {
+export class MicroKV {
     #key: Buffer;
     #filePath: string;
 
