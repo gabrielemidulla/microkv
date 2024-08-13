@@ -1,5 +1,5 @@
 {
-  "name": "minikv",
+  "name": "microkv",
   "version": "1.0.0",
   "main": "index.ts",
   "keywords": [
@@ -8,7 +8,7 @@
   ],
   "author": "Gabriele Pio Midulla",
   "license": "ISC",
-  "description": "A mini key-value database for Node.js",
+  "description": "A micro key-value database for Node.js",
   "devDependencies": {
     "@types/node": "^22.2.0",
     "crypto": "^1.0.1"
